@@ -195,7 +195,14 @@ while i < len(list_result):
     print("{:d} {:s} divisible by 2".format(my_list[i], "is" if list_result[i] else "is not"))
     i += 1
             
-
+tel = {'jack': 4098, 'snape': 5098}
+tel2 = {'amaa': 4068, 'kob': 8976}
+for n, i in tel.items():
+    print(n, i)
+for n, i in enumerate(tel):
+    print(n, i)
+for a, b in zip(tel, tel2):
+    print(a, b)
 
     
 
